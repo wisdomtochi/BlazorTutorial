@@ -1,0 +1,11 @@
+C:\Projects\BlazorTutorial\EmployeeMangement.Models\bin\Debug\net8.0\EmployeeMangement.Models.deps.json
+C:\Projects\BlazorTutorial\EmployeeMangement.Models\bin\Debug\net8.0\EmployeeMangement.Models.dll
+C:\Projects\BlazorTutorial\EmployeeMangement.Models\bin\Debug\net8.0\EmployeeMangement.Models.pdb
+C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\EmployeeMangement.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\EmployeeMangement.Models.AssemblyInfoInputs.cache
+C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\EmployeeMangement.Models.AssemblyInfo.cs
+C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\EmployeeMangement.Models.csproj.CoreCompileInputs.cache
+C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\EmployeeMangement.Models.dll
+C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\refint\EmployeeMangement.Models.dll
+C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\EmployeeMangement.Models.pdb
+C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\ref\EmployeeMangement.Models.dll

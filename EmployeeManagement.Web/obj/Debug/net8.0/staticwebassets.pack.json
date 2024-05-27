@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\BlazorTutorial\\EmployeeManagement.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EmployeeManagement.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EmployeeManagement.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Projects\\BlazorTutorial\\EmployeeManagement.Web\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Projects\\BlazorTutorial\\EmployeeManagement.Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\BlazorTutorial\\EmployeeManagement.Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\BlazorTutorial\\EmployeeManagement.Web\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Projects\\BlazorTutorial\\EmployeeManagement.Web\\wwwroot\\images\\chris.png",
+      "PackagePath": "staticwebassets\\images\\chris.png"
+    },
+    {
+      "Id": "C:\\Projects\\BlazorTutorial\\EmployeeManagement.Web\\wwwroot\\images\\mercy.jpg",
+      "PackagePath": "staticwebassets\\images\\mercy.jpg"
+    },
+    {
+      "Id": "C:\\Projects\\BlazorTutorial\\EmployeeManagement.Web\\wwwroot\\images\\ruth.jpeg",
+      "PackagePath": "staticwebassets\\images\\ruth.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EmployeeManagement.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EmployeeManagement.Web.props",
+      "PackagePath": "build\\EmployeeManagement.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EmployeeManagement.Web.props",
+      "PackagePath": "buildMultiTargeting\\EmployeeManagement.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EmployeeManagement.Web.props",
+      "PackagePath": "buildTransitive\\EmployeeManagement.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
