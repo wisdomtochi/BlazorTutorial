@@ -1,4 +1,5 @@
 ﻿@page "/"
+@using EmployeeMangement.Models.Employee
 @inherits EmployeesBase
 
 <PageTitle>Employees</PageTitle>
@@ -10,13 +11,12 @@
 }else{
     <div class="container">
     <div class="row">
-    @foreach(var employee in Employees){
+    @foreach(var employee in Employees.Results){
     <div class="col-md-4">
             <div class="card m-1">
                 <div class="card-header">
                             @employee.FirstName @employee.LastName
                 </div>
-                <img class="card-img-top imgThumbnail" src="@employee.PhotoPath" />
                 <div class="card-footer text-center">
                     <a href="#" class="btn btn-primary m-1">View</a>
 

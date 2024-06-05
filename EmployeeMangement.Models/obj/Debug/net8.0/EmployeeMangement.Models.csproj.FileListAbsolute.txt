@@ -9,3 +9,5 @@ C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\EmployeeMan
 C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\refint\EmployeeMangement.Models.dll
 C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\EmployeeMangement.Models.pdb
 C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\ref\EmployeeMangement.Models.dll
+C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\EmployeeMangement.Models.csproj.AssemblyReference.cache
+C:\Projects\BlazorTutorial\EmployeeMangement.Models\obj\Debug\net8.0\EmployeeMangement.Models.sourcelink.json
