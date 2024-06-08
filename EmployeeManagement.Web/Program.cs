@@ -1,5 +1,8 @@
+
+
 using EmployeeManagement.Web.Components;
-using EmployeeManagement.Web.Services;
+using EmployeeManagement.Web.Services.Implementation;
+using EmployeeManagement.Web.Services.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,7 +10,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-builder.Services.AddHttpClient<IEmployeeService, EmployeeService>();
+builder.Services.AddHttpClient<IEmployeeListService, EmployeeListService>();
+builder.Services.AddHttpClient<IEmployeeDetailsService, EmployeeDetailsService>();
+builder.Services.AddScoped<IErrorService, ErrorService>();
 
 var app = builder.Build();
 
