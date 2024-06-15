@@ -18,18 +18,14 @@ namespace BlazorWebApp.Services.Implementation
         {
             try
             {
-                httpClient.BaseAddress = new Uri("http://localhost:5080");
+                httpClient.BaseAddress = new Uri("http://localhost:5080/");
                 httpClient.DefaultRequestHeaders.Clear();
                 httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-                var response = await httpClient.GetAsync("/api/home/getemployees");
-                if (response.IsSuccessStatusCode)
-                {
-                    var result = await response.Content.ReadAsStringAsync();
-                    return JsonSerializer.Deserialize<EmployeeList>(result);
-                }
+                var response = await httpClient.GetAsync("api/home/GetAllEmployees");
+                var result = await response.Content.ReadAsStringAsync();
+                return JsonSerializer.Deserialize<EmployeeList>(result);
 
-                return null;
             }
             catch { throw; }
         }
