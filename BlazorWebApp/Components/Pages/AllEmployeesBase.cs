@@ -1,9 +1,9 @@
-﻿using BlazorWebApp.Services.Interface;
+﻿using BlazorApp.Services.Interface;
 using EmployeeMangement.Models.Employee.EmployeeList;
 using EmployeeMangement.Models.Error;
 using Microsoft.AspNetCore.Components;
 
-namespace BlazorWebApp.Components.Pages
+namespace BlazorApp.Components.Pages
 {
     public class AllEmployeesBase : ComponentBase
     {

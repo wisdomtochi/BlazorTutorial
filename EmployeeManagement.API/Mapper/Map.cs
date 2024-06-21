@@ -1,20 +1,19 @@
 ﻿using EmployeeManagement.API.Domain;
-using EmployeeManagement.API.DTO.Write;
+using EmployeeManagement.API.DTO.Read;
 
 namespace EmployeeManagement.API.Mapper
 {
-    public class Map
+    public static class Map
     {
-        public List<EmployeeDTOw> Employees(IEnumerable<Employee> source)
+        public static List<EmployeeDTO> Employees(IEnumerable<Employee> source)
         {
-            List<EmployeeDTOw> employees = source.Select(e => new EmployeeDTOw()
+            List<EmployeeDTO> employees = source.Select(e => new EmployeeDTO()
             {
                 Id = e.Id,
                 FirstName = e.FirstName,
                 LastName = e.LastName,
                 Email = e.Email,
-                Gender = e.Gender,
-                Department = e.Department
+                Gender = e.Gender
             }).ToList();
 
             return employees;

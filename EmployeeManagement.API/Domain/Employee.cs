@@ -9,12 +9,5 @@ namespace EmployeeManagement.API.Domain
         public string LastName { get; set; }
         public string Email { get; set; }
         public Gender Gender { get; set; }
-        public Department Department { get; set; }
-    }
-
-    public class Department
-    {
-        public Guid DepartmentId { get; set; }
-        public string DepartmentName { get; set; }
     }
 }

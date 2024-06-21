@@ -1,6 +1,6 @@
 ﻿using EmployeeMangement.Models.Error;
 
-namespace BlazorWebApp.Services.Interface
+namespace BlazorApp.Services.Interface
 {
     public interface IErrorService
     {

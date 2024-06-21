@@ -16,8 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="DTO\Read\" />
+    <Folder Include="DTO\Write\" />
   </ItemGroup>
 
 </Project>

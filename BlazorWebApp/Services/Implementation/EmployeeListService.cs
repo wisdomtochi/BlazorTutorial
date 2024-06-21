@@ -1,9 +1,9 @@
-﻿using BlazorWebApp.Services.Interface;
+﻿using BlazorApp.Services.Interface;
 using EmployeeMangement.Models.Employee.EmployeeList;
 using System.Net.Http.Headers;
 using System.Text.Json;
 
-namespace BlazorWebApp.Services.Implementation
+namespace BlazorApp.Services.Implementation
 {
     public class EmployeeListService : IEmployeeListService
     {
@@ -11,6 +11,9 @@ namespace BlazorWebApp.Services.Implementation
 
         public EmployeeListService(HttpClient httpClient)
         {
+            httpClient.BaseAddress = new Uri("http://localhost:7143");
+            httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
             this.httpClient = httpClient;
         }
 
@@ -18,16 +21,15 @@ namespace BlazorWebApp.Services.Implementation
         {
             try
             {
-                httpClient.BaseAddress = new Uri("http://localhost:5080/");
-                httpClient.DefaultRequestHeaders.Clear();
-                httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-                var response = await httpClient.GetAsync("api/home/GetAllEmployees");
+                var response = await httpClient.GetAsync("/api/v1/home/allemployees");
                 var result = await response.Content.ReadAsStringAsync();
                 return JsonSerializer.Deserialize<EmployeeList>(result);
 
             }
-            catch { throw; }
+            catch (Exception)
+            {
+                throw;
+            }
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using EmployeeMangement.Models.Employee.EmployeeList;
 
-namespace BlazorWebApp.Services.Interface
+namespace BlazorApp.Services.Interface
 {
     public interface IEmployeeListService
     {

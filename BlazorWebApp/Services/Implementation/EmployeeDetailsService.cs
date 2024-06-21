@@ -1,9 +1,9 @@
-﻿using BlazorWebApp.Services.Interface;
+﻿using BlazorApp.Services.Interface;
 using EmployeeMangement.Models.Employee.EmployeeDetails;
 using System.Net.Http.Headers;
 using System.Text.Json;
 
-namespace BlazorWebApp.Services.Implementation
+namespace BlazorApp.Services.Implementation
 {
     public class EmployeeDetailsService : IEmployeeDetailsService
     {

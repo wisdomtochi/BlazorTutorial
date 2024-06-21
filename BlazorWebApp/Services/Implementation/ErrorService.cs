@@ -1,7 +1,7 @@
-﻿using BlazorWebApp.Services.Interface;
+﻿using BlazorApp.Services.Interface;
 using EmployeeMangement.Models.Error;
 
-namespace BlazorWebApp.Services.Implementation
+namespace BlazorApp.Services.Implementation
 {
     public class ErrorService : IErrorService
     {

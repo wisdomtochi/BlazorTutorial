@@ -1,32 +1,45 @@
-﻿using EmployeeManagement.API.DataAccess.Interface;
+﻿using EmployeeManagement.API.Data.Context;
+using EmployeeManagement.API.DataAccess.Interface;
+using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeManagement.API.DataAccess.Implementation
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        public Task<string> Create(T entity)
+        private readonly EmployeeDbContext dbContext;
+        private readonly DbSet<T> table;
+
+        public GenericRepository(EmployeeDbContext dbContext)
         {
-            throw new NotImplementedException();
+            this.dbContext = dbContext;
+            this.table = dbContext.Set<T>();
         }
 
-        public Task Delete(Guid id)
+        public async Task<T> ReadSingle(Guid id)
         {
-            throw new NotImplementedException();
+            var entity = await table.FindAsync(id);
+            return entity;
+        }
+        public async Task<IEnumerable<T>> ReadAll()
+        {
+            return await table.ToListAsync();
         }
 
-        public Task<IEnumerable<T>> ReadAll()
+        public async Task Create(T entity)
         {
-            throw new NotImplementedException();
+            await table.AddAsync(entity);
         }
 
-        public Task<T> ReadSingle(Guid T)
+        public async Task Delete(Guid id)
         {
-            throw new NotImplementedException();
+            var entity = await table.FindAsync(id);
+            table.Remove(entity);
         }
 
-        public Task Update(Guid id, T entity)
+        public async Task Update(T entity)
         {
-            throw new NotImplementedException();
+            var updateEntity = table.Attach(entity);
+            updateEntity.State = EntityState.Modified;
         }
     }
 }

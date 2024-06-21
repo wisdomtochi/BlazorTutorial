@@ -1,6 +1,6 @@
-using BlazorWebApp.Components;
-using BlazorWebApp.Services.Implementation;
-using BlazorWebApp.Services.Interface;
+using BlazorApp.Components;
+using BlazorApp.Services.Implementation;
+using BlazorApp.Services.Interface;
 
 var builder = WebApplication.CreateBuilder(args);
 
