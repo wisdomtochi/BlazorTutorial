@@ -103,3 +103,13 @@ C:\Projects\BlazorTutorial\EmployeeManagement.API\obj\Debug\net8.0\refint\Employ
 C:\Projects\BlazorTutorial\EmployeeManagement.API\obj\Debug\net8.0\EmployeeManagement.API.pdb
 C:\Projects\BlazorTutorial\EmployeeManagement.API\obj\Debug\net8.0\EmployeeManagement.API.genruntimeconfig.cache
 C:\Projects\BlazorTutorial\EmployeeManagement.API\obj\Debug\net8.0\ref\EmployeeManagement.API.dll
+C:\Projects\BlazorTutorial\EmployeeManagement.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Projects\BlazorTutorial\EmployeeManagement.API\bin\Debug\net8.0\Serilog.dll
+C:\Projects\BlazorTutorial\EmployeeManagement.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Projects\BlazorTutorial\EmployeeManagement.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Projects\BlazorTutorial\EmployeeManagement.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Projects\BlazorTutorial\EmployeeManagement.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Projects\BlazorTutorial\EmployeeManagement.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Projects\BlazorTutorial\EmployeeManagement.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Projects\BlazorTutorial\EmployeeManagement.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Projects\BlazorTutorial\EmployeeManagement.API\bin\Debug\net8.0\Serilog.Sinks.File.dll

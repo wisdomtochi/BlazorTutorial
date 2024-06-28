@@ -37,3 +37,13 @@ C:\Projects\BlazorTutorial\BlazorWebApp\obj\Debug\net8.0\refint\BlazorApp.dll
 C:\Projects\BlazorTutorial\BlazorWebApp\obj\Debug\net8.0\BlazorApp.pdb
 C:\Projects\BlazorTutorial\BlazorWebApp\obj\Debug\net8.0\BlazorApp.genruntimeconfig.cache
 C:\Projects\BlazorTutorial\BlazorWebApp\obj\Debug\net8.0\ref\BlazorApp.dll
+C:\Projects\BlazorTutorial\BlazorWebApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Projects\BlazorTutorial\BlazorWebApp\bin\Debug\net8.0\Serilog.dll
+C:\Projects\BlazorTutorial\BlazorWebApp\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Projects\BlazorTutorial\BlazorWebApp\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Projects\BlazorTutorial\BlazorWebApp\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Projects\BlazorTutorial\BlazorWebApp\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Projects\BlazorTutorial\BlazorWebApp\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Projects\BlazorTutorial\BlazorWebApp\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Projects\BlazorTutorial\BlazorWebApp\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Projects\BlazorTutorial\BlazorWebApp\bin\Debug\net8.0\Serilog.Sinks.File.dll

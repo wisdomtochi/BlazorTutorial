@@ -1,0 +1,269 @@
+2024-06-27 12:13:31.2596 -07:00INFstarting up
+2024-06-27 12:21:07.3118 -07:00INFstarting up
+2024-06-27 12:46:50.0186 -07:00INFstarting up
+2024-06-27 12:46:57.6730 -07:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-27 12:47:07.7547 -07:00INFNow listening on: https://localhost:7062
+2024-06-27 12:47:07.7558 -07:00INFNow listening on: http://localhost:5038
+2024-06-27 12:47:07.7815 -07:00INFApplication started. Press Ctrl+C to shut down.
+2024-06-27 12:47:07.7840 -07:00INFHosting environment: Development
+2024-06-27 12:47:07.7850 -07:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-06-27 12:49:50.9977 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-06-27 12:49:55.9071 -07:00INFExecuting endpoint '/ (/)'
+2024-06-27 12:52:31.3659 -07:00INFExecuted endpoint '/ (/)'
+2024-06-27 12:52:31.4529 -07:00ERRAn unhandled exception has occurred while executing the request.System.ArgumentNullException: Value cannot be null. (Parameter 'logger')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(ILogger logger, String message, Object[] args)
+   at BlazorApp.Components.Pages.AllEmployeesBase.OnInitializedAsync() in C:\Projects\BlazorTutorial\BlazorWebApp\Components\Pages\AllEmployeesBase.cs:line 21
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InitializeNewComponentFrame(DiffContext& diffContext, Int32 frameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InitializeNewSubtree(DiffContext& diffContext, Int32 frameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToRenderQueue(Int32 componentId, RenderFragment renderFragment)
+   at Microsoft.AspNetCore.Components.ComponentBase.StateHasChanged()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallOnParametersSetAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.RenderRootComponentAsync(Int32 componentId, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.HtmlRendering.Infrastructure.StaticHtmlRenderer.BeginRenderingComponent(IComponent component, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Endpoints.EndpointHtmlRenderer.RenderEndpointComponent(HttpContext httpContext, Type rootComponentType, ParameterView parameters, Boolean waitForQuiescence)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<<InvokeAsync>b__10_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-06-27 12:52:34.0927 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/ - 500 null text/html; charset=utf-8 163473.7556ms
+2024-06-27 12:52:36.3387 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2024-06-27 12:52:36.7135 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-27 12:52:36.7381 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 25.1193ms
+2024-06-27 12:52:37.8811 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1542.5339ms
+2024-06-27 12:52:44.9092 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/favicon.ico - null null
+2024-06-27 12:52:45.1532 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/favicon.ico - 404 0 null 245.1439ms
+2024-06-27 12:52:45.1791 -07:00INFRequest reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7062/favicon.ico, Response status code: 404
+2024-06-27 12:55:33.8384 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-06-27 12:55:33.9838 -07:00INFExecuting endpoint '/ (/)'
+2024-06-27 12:55:42.1274 -07:00INFExecuted endpoint '/ (/)'
+2024-06-27 12:55:42.1293 -07:00ERRAn unhandled exception has occurred while executing the request.System.ArgumentNullException: Value cannot be null. (Parameter 'logger')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogInformation(ILogger logger, String message, Object[] args)
+   at BlazorApp.Components.Pages.AllEmployeesBase.OnInitializedAsync() in C:\Projects\BlazorTutorial\BlazorWebApp\Components\Pages\AllEmployeesBase.cs:line 21
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InitializeNewComponentFrame(DiffContext& diffContext, Int32 frameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InitializeNewSubtree(DiffContext& diffContext, Int32 frameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.InsertNewFrame(DiffContext& diffContext, Int32 newFrameIndex)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.AppendDiffEntriesForRange(DiffContext& diffContext, Int32 oldStartIndex, Int32 oldEndIndexExcl, Int32 newStartIndex, Int32 newEndIndexExcl)
+   at Microsoft.AspNetCore.Components.RenderTree.RenderTreeDiffBuilder.ComputeDiff(Renderer renderer, RenderBatchBuilder batchBuilder, Int32 componentId, ArrayRange`1 oldTree, ArrayRange`1 newTree)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToRenderQueue(Int32 componentId, RenderFragment renderFragment)
+   at Microsoft.AspNetCore.Components.ComponentBase.StateHasChanged()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallOnParametersSetAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.RenderRootComponentAsync(Int32 componentId, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.HtmlRendering.Infrastructure.StaticHtmlRenderer.BeginRenderingComponent(IComponent component, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Endpoints.EndpointHtmlRenderer.RenderEndpointComponent(HttpContext httpContext, Type rootComponentType, ParameterView parameters, Boolean waitForQuiescence)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<<InvokeAsync>b__10_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-06-27 12:55:42.4412 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/ - 500 null text/html; charset=utf-8 8601.2308ms
+2024-06-27 12:55:42.6522 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-27 12:55:42.6651 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 13.21ms
+2024-06-27 12:55:42.7194 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2024-06-27 12:55:42.7466 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.4216ms
+2024-06-27 13:10:24.7445 -07:00INFstarting up
+2024-06-27 13:10:33.9971 -07:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-27 13:10:44.4967 -07:00INFNow listening on: https://localhost:7062
+2024-06-27 13:10:44.4982 -07:00INFNow listening on: http://localhost:5038
+2024-06-27 13:10:44.5479 -07:00INFApplication started. Press Ctrl+C to shut down.
+2024-06-27 13:10:44.5491 -07:00INFHosting environment: Development
+2024-06-27 13:10:44.5499 -07:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-06-27 13:11:04.5408 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-06-27 13:11:11.4243 -07:00INFExecuting endpoint '/ (/)'
+2024-06-27 13:14:08.9390 -07:00INFstarting up
+2024-06-27 13:14:09.9963 -07:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-27 13:14:13.6866 -07:00INFNow listening on: https://localhost:7062
+2024-06-27 13:14:13.7003 -07:00INFNow listening on: http://localhost:5038
+2024-06-27 13:14:13.7077 -07:00INFApplication started. Press Ctrl+C to shut down.
+2024-06-27 13:14:13.7090 -07:00INFHosting environment: Development
+2024-06-27 13:14:13.7098 -07:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-06-27 13:14:21.9433 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-06-27 13:14:25.5672 -07:00INFExecuting endpoint '/ (/)'
+2024-06-27 13:17:23.0043 -07:00INFstarting up
+2024-06-27 13:17:25.3456 -07:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-27 13:17:27.1959 -07:00INFNow listening on: https://localhost:7062
+2024-06-27 13:17:27.1971 -07:00INFNow listening on: http://localhost:5038
+2024-06-27 13:17:27.2020 -07:00INFApplication started. Press Ctrl+C to shut down.
+2024-06-27 13:17:27.2031 -07:00INFHosting environment: Development
+2024-06-27 13:17:27.2039 -07:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-06-27 13:17:29.2068 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-06-27 13:17:41.3347 -07:00INFExecuting endpoint '/ (/)'
+2024-06-27 13:18:30.6053 -07:00INFInitializing Razor Page.
+2024-06-27 13:18:30.6231 -07:00INFinitialized razor.
+2024-06-27 13:18:32.8046 -07:00INFExecuted endpoint '/ (/)'
+2024-06-27 13:18:32.9219 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/ - 200 null text/html; charset=utf-8 63721.1334ms
+2024-06-27 13:18:34.3822 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/BlazorWebApp.styles.css - null null
+2024-06-27 13:18:34.3831 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/blazor.web.js - null null
+2024-06-27 13:18:34.3857 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-27 13:18:34.4016 -07:00INFExecuting endpoint 'Blazor web static files'
+2024-06-27 13:18:34.4484 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/BlazorWebApp.styles.css - 404 0 null 66.4057ms
+2024-06-27 13:18:34.4551 -07:00INFRequest reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7062/BlazorWebApp.styles.css, Response status code: 404
+2024-06-27 13:18:34.4596 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 77.7384ms
+2024-06-27 13:18:34.5358 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2024-06-27 13:18:34.5495 -07:00INFThe file /_framework/blazor.web.js was not modified
+2024-06-27 13:18:34.5516 -07:00INFExecuted endpoint 'Blazor web static files'
+2024-06-27 13:18:34.5529 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/blazor.web.js - 304 null text/javascript 170.0834ms
+2024-06-27 13:18:35.6646 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1129.1986ms
+2024-06-27 14:04:54.4449 -07:00INFstarting up
+2024-06-27 14:04:57.4229 -07:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-27 14:05:17.5299 -07:00INFNow listening on: https://localhost:7062
+2024-06-27 14:05:17.5311 -07:00INFNow listening on: http://localhost:5038
+2024-06-27 14:05:17.8694 -07:00INFApplication started. Press Ctrl+C to shut down.
+2024-06-27 14:05:17.8719 -07:00INFHosting environment: Development
+2024-06-27 14:05:17.8738 -07:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-06-27 14:05:28.5134 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-06-27 14:05:29.5928 -07:00INFExecuting endpoint '/ (/)'
+2024-06-27 14:06:34.0489 -07:00INFInitializing Razor Page.
+2024-06-27 14:06:34.0643 -07:00INFinitialized razor.
+2024-06-27 14:06:34.6758 -07:00INFExecuted endpoint '/ (/)'
+2024-06-27 14:06:34.8961 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/ - 200 null text/html; charset=utf-8 66390.7597ms
+2024-06-27 14:06:35.0208 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-27 14:06:35.0211 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/BlazorWebApp.styles.css - null null
+2024-06-27 14:06:35.0549 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/blazor.web.js - null null
+2024-06-27 14:06:35.0740 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 53.4934ms
+2024-06-27 14:06:35.1292 -07:00INFExecuting endpoint 'Blazor web static files'
+2024-06-27 14:06:35.2215 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/BlazorWebApp.styles.css - 404 0 null 200.391ms
+2024-06-27 14:06:35.2302 -07:00INFRequest reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7062/BlazorWebApp.styles.css, Response status code: 404
+2024-06-27 14:06:35.3030 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2024-06-27 14:06:35.4213 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 118.3621ms
+2024-06-27 14:06:35.4471 -07:00INFThe file /_framework/blazor.web.js was not modified
+2024-06-27 14:06:35.4493 -07:00INFExecuted endpoint 'Blazor web static files'
+2024-06-27 14:06:35.4505 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/blazor.web.js - 304 null text/javascript 395.6352ms
+2024-06-27 14:16:15.4336 -07:00INFstarting up
+2024-06-27 14:16:16.8511 -07:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-27 14:16:20.0737 -07:00INFNow listening on: https://localhost:7062
+2024-06-27 14:16:20.0754 -07:00INFNow listening on: http://localhost:5038
+2024-06-27 14:16:20.0813 -07:00INFApplication started. Press Ctrl+C to shut down.
+2024-06-27 14:16:20.0832 -07:00INFHosting environment: Development
+2024-06-27 14:16:20.0841 -07:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-06-27 14:16:22.0191 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-06-27 14:16:22.8565 -07:00INFExecuting endpoint '/ (/)'
+2024-06-27 14:16:29.1189 -07:00INFInitializing Razor Page.
+2024-06-27 14:16:29.1213 -07:00INFinitialized razor.
+2024-06-27 14:16:29.1930 -07:00INFExecuted endpoint '/ (/)'
+2024-06-27 14:16:29.2059 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/ - 200 null text/html; charset=utf-8 7188.2621ms
+2024-06-27 14:16:29.2336 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/BlazorWebApp.styles.css - null null
+2024-06-27 14:16:29.2504 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/BlazorWebApp.styles.css - 404 0 null 16.8172ms
+2024-06-27 14:16:29.2654 -07:00INFRequest reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7062/BlazorWebApp.styles.css, Response status code: 404
+2024-06-27 14:16:29.2819 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/blazor.web.js - null null
+2024-06-27 14:16:29.2888 -07:00INFExecuting endpoint 'Blazor web static files'
+2024-06-27 14:16:29.3040 -07:00INFThe file /_framework/blazor.web.js was not modified
+2024-06-27 14:16:29.3075 -07:00INFExecuted endpoint 'Blazor web static files'
+2024-06-27 14:16:29.3088 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-27 14:16:29.3089 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/blazor.web.js - 304 null text/javascript 27.0236ms
+2024-06-27 14:16:29.3291 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 20.2159ms
+2024-06-27 14:16:29.3432 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2024-06-27 14:16:29.4277 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.4032ms
+2024-06-27 14:20:34.7580 -07:00INFstarting up
+2024-06-27 14:20:34.9726 -07:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-27 14:20:35.4102 -07:00INFNow listening on: https://localhost:7062
+2024-06-27 14:20:35.4115 -07:00INFNow listening on: http://localhost:5038
+2024-06-27 14:20:35.4169 -07:00INFApplication started. Press Ctrl+C to shut down.
+2024-06-27 14:20:35.4181 -07:00INFHosting environment: Development
+2024-06-27 14:20:35.4189 -07:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-06-27 14:20:37.7220 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-06-27 14:20:38.1631 -07:00INFExecuting endpoint '/ (/)'
+2024-06-27 14:31:43.4352 -07:00INFstarting up
+2024-06-27 14:37:50.7788 -07:00INFstarting up
+2024-06-27 14:38:05.7309 -07:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-27 14:38:10.0065 -07:00INFNow listening on: https://localhost:7062
+2024-06-27 14:38:10.0082 -07:00INFNow listening on: http://localhost:5038
+2024-06-27 14:38:10.0339 -07:00INFApplication started. Press Ctrl+C to shut down.
+2024-06-27 14:38:10.0362 -07:00INFHosting environment: Development
+2024-06-27 14:38:10.0375 -07:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-06-27 14:38:20.5931 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-06-27 14:38:26.2615 -07:00INFExecuting endpoint '/ (/)'
+2024-06-27 14:44:05.4761 -07:00INFstarting up
+2024-06-27 14:44:06.1287 -07:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-27 14:44:07.7472 -07:00INFNow listening on: https://localhost:7062
+2024-06-27 14:44:07.7497 -07:00INFNow listening on: http://localhost:5038
+2024-06-27 14:44:07.7568 -07:00INFApplication started. Press Ctrl+C to shut down.
+2024-06-27 14:44:07.7591 -07:00INFHosting environment: Development
+2024-06-27 14:44:07.7607 -07:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-06-27 14:44:10.0607 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-06-27 14:44:13.0468 -07:00INFExecuting endpoint '/ (/)'
+2024-06-27 14:44:13.2915 -07:00INFInitializing Razor Page.
+2024-06-27 14:44:13.2961 -07:00INFinitialized razor.
+2024-06-27 14:44:13.7595 -07:00INFExecuted endpoint '/ (/)'
+2024-06-27 14:44:13.8635 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2024-06-27 14:44:13.8635 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/BlazorWebApp.styles.css - null null
+2024-06-27 14:44:13.8635 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-27 14:44:13.8935 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/ - 200 null text/html; charset=utf-8 3838.2373ms
+2024-06-27 14:44:14.0146 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/blazor.web.js - null null
+2024-06-27 14:44:14.0198 -07:00INFExecuting endpoint 'Blazor web static files'
+2024-06-27 14:44:14.0265 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/BlazorWebApp.styles.css - 404 0 null 163.3068ms
+2024-06-27 14:44:14.0319 -07:00INFRequest reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7062/BlazorWebApp.styles.css, Response status code: 404
+2024-06-27 14:44:14.0909 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 227.9046ms
+2024-06-27 14:44:14.1606 -07:00INFThe file /_framework/blazor.web.js was not modified
+2024-06-27 14:44:14.1686 -07:00INFExecuted endpoint 'Blazor web static files'
+2024-06-27 14:44:14.1704 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/blazor.web.js - 304 null text/javascript 155.8808ms
+2024-06-27 14:44:14.2473 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 383.6279ms
+2024-06-27 14:48:41.9902 -07:00INFstarting up
+2024-06-27 14:48:49.6841 -07:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-27 14:49:05.9706 -07:00INFNow listening on: https://localhost:7062
+2024-06-27 14:49:05.9733 -07:00INFNow listening on: http://localhost:5038
+2024-06-27 14:49:06.1073 -07:00INFApplication started. Press Ctrl+C to shut down.
+2024-06-27 14:49:06.1120 -07:00INFHosting environment: Development
+2024-06-27 14:49:06.1164 -07:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-06-27 14:49:10.7466 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-06-27 14:49:12.0786 -07:00INFExecuting endpoint '/ (/)'
+2024-06-27 14:49:13.4130 -07:00INFInitializing Razor Page.
+2024-06-27 14:49:13.4156 -07:00INFinitialized razor.
+2024-06-27 14:49:13.6635 -07:00INFExecuted endpoint '/ (/)'
+2024-06-27 14:49:13.7210 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/BlazorWebApp.styles.css - null null
+2024-06-27 14:49:13.7210 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-27 14:49:13.7336 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/BlazorWebApp.styles.css - 404 0 null 11.3872ms
+2024-06-27 14:49:13.7444 -07:00INFRequest reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7062/BlazorWebApp.styles.css, Response status code: 404
+2024-06-27 14:49:13.7497 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 28.9668ms
+2024-06-27 14:49:13.7708 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/ - 200 null text/html; charset=utf-8 3030.7253ms
+2024-06-27 14:49:13.9605 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/blazor.web.js - null null
+2024-06-27 14:49:13.9604 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2024-06-27 14:49:13.9666 -07:00INFExecuting endpoint 'Blazor web static files'
+2024-06-27 14:49:14.0335 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 72.872ms
+2024-06-27 14:49:14.0744 -07:00INFThe file /_framework/blazor.web.js was not modified
+2024-06-27 14:49:14.0769 -07:00INFExecuted endpoint 'Blazor web static files'
+2024-06-27 14:49:14.0778 -07:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/blazor.web.js - 304 null text/javascript 117.6233ms
+2024-06-27 15:07:56.9486 -07:00INFstarting up
+2024-06-27 15:08:07.8405 -07:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-06-27 15:08:48.4393 -07:00INFNow listening on: https://localhost:7062
+2024-06-27 15:08:48.4431 -07:00INFNow listening on: http://localhost:5038
+2024-06-27 15:08:48.7700 -07:00INFApplication started. Press Ctrl+C to shut down.
+2024-06-27 15:08:48.7722 -07:00INFHosting environment: Development
+2024-06-27 15:08:48.7734 -07:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-06-27 15:11:11.2772 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-06-27 15:11:15.7030 -07:00INFExecuting endpoint '/ (/)'
+2024-06-27 15:12:40.1325 -07:00INFInitializing Razor Page.
+2024-06-27 15:15:28.7383 -07:00INFGet Employees Method started.
+2024-06-27 15:15:47.6348 -07:00INFStart processing HTTP request GET http://localhost:7143/api/v1/home/allemployees
+2024-06-27 15:15:47.6846 -07:00INFSending HTTP request GET http://localhost:7143/api/v1/home/allemployees

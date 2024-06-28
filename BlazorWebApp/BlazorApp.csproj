@@ -28,4 +28,8 @@
     <_ContentIncludedByDefault Remove="Components\Pages\EmployeeDetails.razor" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+  </ItemGroup>
+
 </Project>

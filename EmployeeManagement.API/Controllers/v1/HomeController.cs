@@ -7,9 +7,10 @@ namespace EmployeeManagement.API.Controllers.v1
 {
     [Route("api/v1/[controller]/")]
     [ApiController]
-    public class HomeController(IEmployeeService employeeService) : ControllerBase
+    public class HomeController(IEmployeeService employeeService, ILogger<HomeController> logger) : ControllerBase
     {
         private readonly IEmployeeService employeeService = employeeService;
+        private readonly ILogger<HomeController> logger = logger;
 
         [HttpGet]
         [Route("getemployee/{id}")]
@@ -48,7 +49,7 @@ namespace EmployeeManagement.API.Controllers.v1
             try
             {
                 var employees = await employeeService.GetAllEmployees();
-
+                logger.LogInformation("Employees All Set.");
                 if (employees.Succeeded) return Ok(new JsonMessage<EmployeeDTO>
                 {
                     Status = true,
