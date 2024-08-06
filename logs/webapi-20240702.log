@@ -1,0 +1,14 @@
+2024-07-02 00:13:16.0594 -07:00INFStarting App.
+2024-07-02 00:13:42.1293 -07:00INFNow listening on: https://localhost:7143
+2024-07-02 00:13:42.1378 -07:00INFNow listening on: http://localhost:5281
+2024-07-02 00:13:42.1442 -07:00INFApplication started. Press Ctrl+C to shut down.
+2024-07-02 00:13:42.1468 -07:00INFHosting environment: Development
+2024-07-02 00:13:42.1478 -07:00INFContent root path: C:\Projects\BlazorTutorial\EmployeeManagement.API
+2024-07-02 00:17:12.0383 -07:00INFRequest starting HTTP/2 GET https://localhost:7143/swagger/index.html - null null
+2024-07-02 00:17:16.2194 -07:00INFRequest finished HTTP/2 GET https://localhost:7143/swagger/index.html - 200 null text/html;charset=utf-8 4481.4652ms
+2024-07-02 00:17:18.9903 -07:00INFRequest starting HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - null null
+2024-07-02 00:17:19.0403 -07:00INFRequest finished HTTP/2 GET https://localhost:7143/_framework/aspnetcore-browser-refresh.js - 200 13780 application/javascript; charset=utf-8 50.2531ms
+2024-07-02 00:17:19.5761 -07:00INFRequest starting HTTP/2 GET https://localhost:7143/_vs/browserLink - null null
+2024-07-02 00:17:20.8810 -07:00INFRequest finished HTTP/2 GET https://localhost:7143/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1305.8132ms
+2024-07-02 00:17:21.9071 -07:00INFRequest starting HTTP/2 GET https://localhost:7143/swagger/v1/swagger.json - null null
+2024-07-02 00:17:22.9916 -07:00INFRequest finished HTTP/2 GET https://localhost:7143/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1084.9297ms

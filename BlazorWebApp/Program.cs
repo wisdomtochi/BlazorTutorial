@@ -18,7 +18,11 @@ var logger = new LoggerConfiguration()
 builder.Logging.ClearProviders();
 builder.Logging.AddSerilog(logger);
 builder.Services.AddControllers();
-builder.Services.AddHttpClient<IEmployeeListService, EmployeeListService>();
+builder.Services.AddHttpClient<IEmployeeListService, EmployeeListService>(client =>
+{
+    client.BaseAddress = new Uri("https://localhost:7143");
+});
+
 builder.Services.AddHttpClient<IEmployeeDetailsService, EmployeeDetailsService>();
 builder.Services.AddScoped<IErrorService, ErrorService>();
 

@@ -1,0 +1,206 @@
+2024-08-06 18:10:02.9677 +01:00INFstarting up
+2024-08-06 18:10:03.3120 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 18:10:04.0052 +01:00INFNow listening on: https://localhost:7062
+2024-08-06 18:10:04.0073 +01:00INFNow listening on: http://localhost:5038
+2024-08-06 18:10:04.0156 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-06 18:10:04.0170 +01:00INFHosting environment: Development
+2024-08-06 18:10:04.0180 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-06 18:11:09.0413 +01:00INFstarting up
+2024-08-06 18:11:09.3958 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 18:11:10.0603 +01:00INFNow listening on: https://localhost:7062
+2024-08-06 18:11:10.0620 +01:00INFNow listening on: http://localhost:5038
+2024-08-06 18:11:10.0699 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-06 18:11:10.0721 +01:00INFHosting environment: Development
+2024-08-06 18:11:10.0732 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-06 18:11:11.3423 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-06 18:11:11.6761 +01:00INFExecuting endpoint '/ (/)'
+2024-08-06 18:11:57.7740 +01:00INFInitializing Razor Page.
+2024-08-06 18:12:18.2142 +01:00INFGet Employees Method started.
+2024-08-06 18:12:46.1499 +01:00INFStart processing HTTP request GET http://localhost:7143/api/v1/home/allemployees
+2024-08-06 18:12:46.1727 +01:00INFSending HTTP request GET http://localhost:7143/api/v1/home/allemployees
+2024-08-06 18:25:51.9863 +01:00INFstarting up
+2024-08-06 18:25:52.3381 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 18:25:52.9958 +01:00INFNow listening on: https://localhost:7062
+2024-08-06 18:25:52.9971 +01:00INFNow listening on: http://localhost:5038
+2024-08-06 18:25:53.0352 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-06 18:25:53.0612 +01:00INFHosting environment: Development
+2024-08-06 18:25:53.0627 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-06 18:25:53.9262 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-06 18:25:54.2875 +01:00INFExecuting endpoint '/ (/)'
+2024-08-06 18:26:29.6127 +01:00INFstarting up
+2024-08-06 18:26:29.9707 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 18:26:30.6719 +01:00INFNow listening on: https://localhost:7062
+2024-08-06 18:26:30.7329 +01:00INFNow listening on: http://localhost:5038
+2024-08-06 18:26:30.7629 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-06 18:26:30.7825 +01:00INFHosting environment: Development
+2024-08-06 18:26:30.9784 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-06 18:26:31.5786 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-06 18:26:31.9884 +01:00INFExecuting endpoint '/ (/)'
+2024-08-06 18:30:42.8350 +01:00INFstarting up
+2024-08-06 18:30:43.1705 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 18:30:43.8197 +01:00INFNow listening on: https://localhost:7062
+2024-08-06 18:30:43.8212 +01:00INFNow listening on: http://localhost:5038
+2024-08-06 18:30:43.8390 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-06 18:30:43.8427 +01:00INFHosting environment: Development
+2024-08-06 18:30:43.8449 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-06 18:30:44.7694 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-06 18:30:45.1435 +01:00INFExecuting endpoint '/ (/)'
+2024-08-06 18:35:21.4675 +01:00INFstarting up
+2024-08-06 18:35:21.8415 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 18:35:22.5114 +01:00INFNow listening on: https://localhost:7062
+2024-08-06 18:35:22.5126 +01:00INFNow listening on: http://localhost:5038
+2024-08-06 18:35:22.5196 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-06 18:35:22.5211 +01:00INFHosting environment: Development
+2024-08-06 18:35:22.5223 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-06 18:35:23.7267 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-06 18:35:24.0913 +01:00INFExecuting endpoint '/ (/)'
+2024-08-06 18:36:14.5172 +01:00INFInitializing Razor Page.
+2024-08-06 18:36:58.6278 +01:00INFGet Employees Method started.
+2024-08-06 18:37:02.4953 +01:00INFStart processing HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-06 18:37:02.4980 +01:00INFSending HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-06 18:37:32.4946 +01:00INFExecuted endpoint '/ (/)'
+2024-08-06 18:37:32.5062 +01:00ERRAn unhandled exception has occurred while executing the request.System.NullReferenceException: Object reference not set to an instance of an object.
+   at BlazorApp.Components.Pages.Home.BuildRenderTree(RenderTreeBuilder __builder) in C:\Projects\BlazorTutorial\BlazorWebApp\Components\Pages\Home.razor:line 12
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToRenderQueue(Int32 componentId, RenderFragment renderFragment)
+   at Microsoft.AspNetCore.Components.ComponentBase.StateHasChanged()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallOnParametersSetAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.RenderRootComponentAsync(Int32 componentId, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.HtmlRendering.Infrastructure.StaticHtmlRenderer.BeginRenderingComponent(IComponent component, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Endpoints.EndpointHtmlRenderer.RenderEndpointComponent(HttpContext httpContext, Type rootComponentType, ParameterView parameters, Boolean waitForQuiescence)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<<InvokeAsync>b__10_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-08-06 18:37:32.8621 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/ - 500 null text/html; charset=utf-8 129145.8545ms
+2024-08-06 18:37:32.8881 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2024-08-06 18:37:32.8881 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 18:37:32.9051 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 17.4189ms
+2024-08-06 18:37:32.9735 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.8658ms
+2024-08-06 18:37:33.7970 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/favicon.ico - null null
+2024-08-06 18:37:33.8070 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/favicon.ico - 404 0 null 10.1652ms
+2024-08-06 18:37:33.8147 +01:00INFRequest reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7062/favicon.ico, Response status code: 404
+2024-08-06 18:37:34.8576 +01:00INFReceived HTTP response headers after 32350.9444ms - 200
+2024-08-06 18:37:34.8606 +01:00INFEnd processing HTTP request after 32370.9372ms - 200
+2024-08-06 18:37:34.8748 +01:00INFemployees gotten from api.
+2024-08-06 18:41:17.7006 +01:00INFstarting up
+2024-08-06 18:41:18.1807 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 18:41:19.5324 +01:00INFNow listening on: https://localhost:7062
+2024-08-06 18:41:19.5342 +01:00INFNow listening on: http://localhost:5038
+2024-08-06 18:41:19.5418 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-06 18:41:19.5435 +01:00INFHosting environment: Development
+2024-08-06 18:41:19.5445 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-06 18:41:20.1943 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-06 18:41:20.5275 +01:00INFExecuting endpoint '/ (/)'
+2024-08-06 18:41:31.3610 +01:00INFInitializing Razor Page.
+2024-08-06 18:41:54.8901 +01:00INFGet Employees Method started.
+2024-08-06 18:41:56.2083 +01:00INFStart processing HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-06 18:41:56.2116 +01:00INFSending HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-06 18:42:01.7430 +01:00INFExecuted endpoint '/ (/)'
+2024-08-06 18:42:01.7517 +01:00ERRAn unhandled exception has occurred while executing the request.System.NullReferenceException: Object reference not set to an instance of an object.
+   at BlazorApp.Components.Pages.Home.BuildRenderTree(RenderTreeBuilder __builder) in C:\Projects\BlazorTutorial\BlazorWebApp\Components\Pages\Home.razor:line 12
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToRenderQueue(Int32 componentId, RenderFragment renderFragment)
+   at Microsoft.AspNetCore.Components.ComponentBase.StateHasChanged()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallOnParametersSetAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.RenderRootComponentAsync(Int32 componentId, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.HtmlRendering.Infrastructure.StaticHtmlRenderer.BeginRenderingComponent(IComponent component, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Endpoints.EndpointHtmlRenderer.RenderEndpointComponent(HttpContext httpContext, Type rootComponentType, ParameterView parameters, Boolean waitForQuiescence)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<<InvokeAsync>b__10_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-08-06 18:42:01.8972 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/ - 500 null text/html; charset=utf-8 41716.7547ms
+2024-08-06 18:42:01.9245 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2024-08-06 18:42:01.9249 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 18:42:01.9507 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 25.7461ms
+2024-08-06 18:42:02.0151 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 90.6894ms
+2024-08-06 18:42:02.4021 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/favicon.ico - null null
+2024-08-06 18:42:02.4128 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/favicon.ico - 404 0 null 13.8392ms
+2024-08-06 18:42:02.4243 +01:00INFRequest reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7062/favicon.ico, Response status code: 404
+2024-08-06 18:42:03.8796 +01:00INFReceived HTTP response headers after 7661.9679ms - 200
+2024-08-06 18:42:03.8823 +01:00INFEnd processing HTTP request after 7678.9713ms - 200
+2024-08-06 18:42:03.8922 +01:00INFemployees gotten from api.
+2024-08-06 19:12:19.4444 +01:00INFstarting up
+2024-08-06 19:12:19.8160 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-06 19:12:20.3983 +01:00INFNow listening on: https://localhost:7062
+2024-08-06 19:12:20.3993 +01:00INFNow listening on: http://localhost:5038
+2024-08-06 19:12:20.4039 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-06 19:12:20.4051 +01:00INFHosting environment: Development
+2024-08-06 19:12:20.4057 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-06 19:12:21.7321 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-06 19:12:22.0801 +01:00INFExecuting endpoint '/ (/)'
+2024-08-06 19:14:39.9881 +01:00INFInitializing Razor Page.
+2024-08-06 19:15:12.1874 +01:00INFGet Employees Method started.
+2024-08-06 19:15:24.2678 +01:00INFStart processing HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-06 19:15:24.2713 +01:00INFSending HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-06 19:15:58.1479 +01:00INFExecuted endpoint '/ (/)'
+2024-08-06 19:15:58.1583 +01:00ERRAn unhandled exception has occurred while executing the request.System.NullReferenceException: Object reference not set to an instance of an object.
+   at BlazorApp.Components.Pages.Home.BuildRenderTree(RenderTreeBuilder __builder) in C:\Projects\BlazorTutorial\BlazorWebApp\Components\Pages\Home.razor:line 12
+   at Microsoft.AspNetCore.Components.ComponentBase.<.ctor>b__6_0(RenderTreeBuilder builder)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.HtmlRendering.Infrastructure.StaticHtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.HandleExceptionViaErrorBoundary(Exception error, ComponentState errorSourceOrNull)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.RenderInExistingBatch(RenderQueueEntry renderQueueEntry)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.HtmlRendering.Infrastructure.StaticHtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessPendingRender()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToRenderQueue(Int32 componentId, RenderFragment renderFragment)
+   at Microsoft.AspNetCore.Components.RenderHandle.Render(RenderFragment renderFragment)
+   at Microsoft.AspNetCore.Components.ComponentBase.StateHasChanged()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallOnParametersSetAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.HtmlRendering.Infrastructure.StaticHtmlRenderer.HandleException(Exception exception)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.HandleExceptionViaErrorBoundary(Exception error, ComponentState errorSourceOrNull)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToPendingTasksWithErrorHandling(Task task, ComponentState owningComponentState)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.RenderRootComponentAsync(Int32 componentId, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.HtmlRendering.Infrastructure.StaticHtmlRenderer.BeginRenderingComponent(IComponent component, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.HtmlRendering.Infrastructure.StaticHtmlRenderer.BeginRenderingComponent(Type componentType, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Endpoints.EndpointHtmlRenderer.RenderEndpointComponent(HttpContext httpContext, Type rootComponentType, ParameterView parameters, Boolean waitForQuiescence)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<<InvokeAsync>b__10_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-08-06 19:15:58.3266 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/ - 500 null text/html; charset=utf-8 216605.587ms
+2024-08-06 19:15:58.3429 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2024-08-06 19:15:58.3436 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-06 19:15:58.3601 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 16.4259ms
+2024-08-06 19:15:58.4277 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.955ms
+2024-08-06 19:15:58.7812 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/favicon.ico - null null
+2024-08-06 19:15:58.7910 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/favicon.ico - 404 0 null 10.1763ms
+2024-08-06 19:15:58.7953 +01:00INFRequest reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7062/favicon.ico, Response status code: 404
+2024-08-06 19:15:59.9822 +01:00INFReceived HTTP response headers after 35705.3854ms - 200
+2024-08-06 19:15:59.9854 +01:00INFEnd processing HTTP request after 35721.8607ms - 200
+2024-08-06 19:16:00.0376 +01:00INFemployees gotten from api.

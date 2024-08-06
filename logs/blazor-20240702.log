@@ -1,0 +1,13 @@
+2024-07-02 00:13:19.9076 -07:00INFstarting up
+2024-07-02 00:13:27.5503 -07:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-07-02 00:13:42.1088 -07:00INFNow listening on: https://localhost:7062
+2024-07-02 00:13:42.1130 -07:00INFNow listening on: http://localhost:5038
+2024-07-02 00:13:42.2881 -07:00INFApplication started. Press Ctrl+C to shut down.
+2024-07-02 00:13:42.2926 -07:00INFHosting environment: Development
+2024-07-02 00:13:42.2952 -07:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-07-02 00:17:47.6610 -07:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-07-02 00:17:51.5642 -07:00INFExecuting endpoint '/ (/)'
+2024-07-02 00:21:20.1783 -07:00INFInitializing Razor Page.
+2024-07-02 00:22:27.8116 -07:00INFGet Employees Method started.
+2024-07-02 00:22:27.8253 -07:00INFStart processing HTTP request GET http://localhost:7143/api/v1/home/allemployees
+2024-07-02 00:22:27.8727 -07:00INFSending HTTP request GET http://localhost:7143/api/v1/home/allemployees

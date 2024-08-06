@@ -1,7 +1,6 @@
 ﻿using BlazorApp.Services.Interface;
 using EmployeeMangement.Models.Employee.EmployeeList;
 using System.Net.Http.Headers;
-using System.Text.Json;
 
 namespace BlazorApp.Services.Implementation
 {
@@ -12,11 +11,10 @@ namespace BlazorApp.Services.Implementation
 
         public EmployeeListService(HttpClient httpClient, ILogger<EmployeeListService> logger)
         {
-            httpClient.BaseAddress = new Uri("http://localhost:7143");
-            httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
             this.httpClient = httpClient;
             this.logger = logger;
+
+            //SetupHttpClient();
         }
 
         public async Task<EmployeeList> GetEmployees()
@@ -24,16 +22,27 @@ namespace BlazorApp.Services.Implementation
             try
             {
                 logger.LogInformation("Get Employees Method started.");
-                var response = await httpClient.GetAsync("/api/v1/home/allemployees");
+                //var response = await httpClient.GetAsync("/api/v1/Home/allemployees");
+                //var result = await response.Content.ReadAsStringAsync();
+
+                var response = await httpClient.GetFromJsonAsync<EmployeeList>("/api/v1/Home/allemployees");
                 logger.LogInformation("employees gotten from api.");
-                var result = await response.Content.ReadAsStringAsync();
-                return JsonSerializer.Deserialize<EmployeeList>(result);
+
+                return response;
+                //return JsonSerializer.Deserialize<EmployeeList>(response);
 
             }
             catch (Exception)
             {
                 throw;
             }
+        }
+
+        private void SetupHttpClient()
+        {
+            httpClient.BaseAddress = new Uri("https://localhost:7143");
+            httpClient.DefaultRequestHeaders.Clear();
+            httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
     }
 }

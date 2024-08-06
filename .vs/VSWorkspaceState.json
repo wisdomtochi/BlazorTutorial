@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BlazorWebApp",
+    "\\EmployeeManagement.API",
+    "\\EmployeeManagement.API\\Controllers",
+    "\\EmployeeManagement.API\\Controllers\\v1"
+  ],
+  "SelectedNode": "\\EmployeeManagement.API\\EmployeeManagement.API.csproj",
+  "PreviewInSolutionExplorer": false
+}
