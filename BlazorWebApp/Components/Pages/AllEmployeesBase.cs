@@ -21,7 +21,6 @@ namespace BlazorApp.Components.Pages
         {
             _logger.LogInformation("Initializing Razor Page.");
             var result = await employeeService.GetEmployees();
-            _logger.LogInformation("gotten employees from result in initializing razor page");
 
             if (result.status != true)
             {
@@ -30,8 +29,7 @@ namespace BlazorApp.Components.Pages
                 Error = error;
             }
 
-            Employees = new EmployeeList() { results = [new Result() { firstname = "john", lastName = "okoro" }] };
-            _logger.LogInformation("initialized razor.");
+            Employees = result;
         }
     }
 }
