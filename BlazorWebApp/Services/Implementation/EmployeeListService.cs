@@ -25,12 +25,25 @@ namespace BlazorApp.Services.Implementation
                 //var response = await httpClient.GetAsync("/api/v1/Home/allemployees");
                 //var result = await response.Content.ReadAsStringAsync();
 
-                var response = await httpClient.GetFromJsonAsync<EmployeeList>("/api/v1/Home/allemployees");
-                logger.LogInformation("employees gotten from api.");
+                //var response = await httpClient.GetFromJsonAsync<EmployeeList>("/api/v1/Home/allemployees");
+                try
+                {
+                    var response = await httpClient.GetAsync("/api/v1/HomeController/allemployees").ConfigureAwait(false);
 
-                return response;
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var result = await response.Content.ReadFromJsonAsync<EmployeeList>().ConfigureAwait(false);
+
+                        return result;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    logger.LogError(ex.Message);
+                }
+
                 //return JsonSerializer.Deserialize<EmployeeList>(response);
-
+                return null;
             }
             catch (Exception)
             {

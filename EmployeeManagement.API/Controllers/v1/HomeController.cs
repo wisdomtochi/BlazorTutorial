@@ -42,8 +42,8 @@ namespace EmployeeManagement.API.Controllers.v1
             }
         }
 
-        [HttpGet]
-        [Route("allemployees")]
+        [HttpGet("allemployees")]
+        //[Route]
         public async Task<IActionResult> AllEmployees()
         {
             try
