@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "58eRW8CID6Bb7eYZM1mk1utnuQXuTA9aZ34DQnsZMkmNEBoflKN36IbyERvFeRdDqM4yUlO+8GZdWs5PqzVy7w==",
+  "dgSpecHash": "ng4DY/ot0m4=",
   "success": true,
   "projectFilePath": "C:\\Projects\\BlazorTutorial\\EmployeeMangement.Models\\EmployeeMangement.Models.csproj",
   "expectedPackageFiles": [
@@ -27,5 +27,12 @@
     "C:\\Users\\USER\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

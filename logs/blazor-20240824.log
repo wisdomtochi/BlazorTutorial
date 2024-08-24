@@ -1,0 +1,159 @@
+2024-08-24 21:14:49.4307 +01:00INFstarting up
+2024-08-24 21:14:51.2434 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-24 21:14:56.3454 +01:00INFNow listening on: https://localhost:7062
+2024-08-24 21:14:56.3633 +01:00INFNow listening on: http://localhost:5038
+2024-08-24 21:14:56.3731 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-24 21:14:56.3743 +01:00INFHosting environment: Development
+2024-08-24 21:14:56.3753 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-24 21:14:58.4765 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-24 21:14:59.4524 +01:00INFExecuting endpoint '/ (/)'
+2024-08-24 21:16:34.6087 +01:00INFInitializing Razor Page.
+2024-08-24 21:16:34.6781 +01:00INFGet Employees Method started.
+2024-08-24 21:16:34.6913 +01:00INFStart processing HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 21:16:34.6959 +01:00INFSending HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 21:16:51.8331 +01:00INFExecuted endpoint '/ (/)'
+2024-08-24 21:16:51.8420 +01:00ERRAn unhandled exception has occurred while executing the request.System.NullReferenceException: Object reference not set to an instance of an object.
+   at BlazorApp.Components.Pages.Home.BuildRenderTree(RenderTreeBuilder __builder) in C:\Projects\BlazorTutorial\BlazorWebApp\Components\Pages\Home.razor:line 16
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.RenderIntoBatch(RenderBatchBuilder batchBuilder, RenderFragment renderFragment, Exception& renderFragmentException)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.ProcessRenderQueue()
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.AddToRenderQueue(Int32 componentId, RenderFragment renderFragment)
+   at Microsoft.AspNetCore.Components.ComponentBase.StateHasChanged()
+   at Microsoft.AspNetCore.Components.ComponentBase.CallOnParametersSetAsync()
+   at Microsoft.AspNetCore.Components.ComponentBase.RunInitAndSetParametersAsync()
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SetDirectParameters(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.RenderTree.Renderer.RenderRootComponentAsync(Int32 componentId, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.HtmlRendering.Infrastructure.StaticHtmlRenderer.BeginRenderingComponent(IComponent component, ParameterView initialParameters)
+   at Microsoft.AspNetCore.Components.Endpoints.EndpointHtmlRenderer.RenderEndpointComponent(HttpContext httpContext, Type rootComponentType, ParameterView parameters, Boolean waitForQuiescence)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Endpoints.RazorComponentEndpointInvoker.RenderComponentCore(HttpContext context)
+   at Microsoft.AspNetCore.Components.Rendering.RendererSynchronizationContext.<>c.<<InvokeAsync>b__10_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+2024-08-24 21:16:52.2173 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/ - 500 null text/html; charset=utf-8 113743.661ms
+2024-08-24 21:16:52.2355 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/_vs/browserLink - null null
+2024-08-24 21:16:52.2371 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-24 21:16:52.2537 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/_framework/aspnetcore-browser-refresh.js - 200 13754 application/javascript; charset=utf-8 16.5597ms
+2024-08-24 21:16:52.3489 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/_vs/browserLink - 200 null text/javascript; charset=UTF-8 113.3694ms
+2024-08-24 21:16:53.4739 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/favicon.ico - null null
+2024-08-24 21:16:53.5995 +01:00INFRequest finished HTTP/2 GET https://localhost:7062/favicon.ico - 404 0 null 125.6043ms
+2024-08-24 21:16:53.6226 +01:00INFRequest reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7062/favicon.ico, Response status code: 404
+2024-08-24 22:13:33.8702 +01:00INFstarting up
+2024-08-24 22:13:35.3875 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-24 22:13:41.6014 +01:00INFNow listening on: https://localhost:7062
+2024-08-24 22:13:41.6146 +01:00INFNow listening on: http://localhost:5038
+2024-08-24 22:13:41.6638 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-24 22:13:41.6648 +01:00INFHosting environment: Development
+2024-08-24 22:13:41.6655 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-24 22:13:44.8463 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-24 22:13:46.5997 +01:00INFExecuting endpoint '/ (/)'
+2024-08-24 22:20:46.9314 +01:00INFInitializing Razor Page.
+2024-08-24 22:22:15.9349 +01:00INFGet Employees Method started.
+2024-08-24 22:22:15.9642 +01:00INFStart processing HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 22:22:15.9879 +01:00INFSending HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 22:22:58.9188 +01:00INFstarting up
+2024-08-24 22:22:59.3976 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-24 22:23:01.1437 +01:00INFNow listening on: https://localhost:7062
+2024-08-24 22:23:01.1805 +01:00INFNow listening on: http://localhost:5038
+2024-08-24 22:23:01.2026 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-24 22:23:01.3168 +01:00INFHosting environment: Development
+2024-08-24 22:23:01.3486 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-24 22:23:02.1123 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-24 22:23:02.8024 +01:00INFExecuting endpoint '/ (/)'
+2024-08-24 22:24:01.0484 +01:00INFInitializing Razor Page.
+2024-08-24 22:24:06.7506 +01:00INFGet Employees Method started.
+2024-08-24 22:24:06.7773 +01:00INFStart processing HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 22:24:06.7838 +01:00INFSending HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 22:24:32.5307 +01:00INFstarting up
+2024-08-24 22:24:32.9717 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-24 22:24:33.6655 +01:00INFNow listening on: https://localhost:7062
+2024-08-24 22:24:33.6680 +01:00INFNow listening on: http://localhost:5038
+2024-08-24 22:24:33.6766 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-24 22:24:33.6781 +01:00INFHosting environment: Development
+2024-08-24 22:24:33.6791 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-24 22:24:34.9842 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-24 22:24:35.5343 +01:00INFExecuting endpoint '/ (/)'
+2024-08-24 22:24:59.4203 +01:00INFInitializing Razor Page.
+2024-08-24 22:25:15.7620 +01:00INFGet Employees Method started.
+2024-08-24 22:25:51.1990 +01:00INFStart processing HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 22:25:51.2046 +01:00INFSending HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 22:28:52.1943 +01:00INFstarting up
+2024-08-24 22:28:52.6105 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-24 22:28:53.4596 +01:00INFNow listening on: https://localhost:7062
+2024-08-24 22:28:53.5419 +01:00INFNow listening on: http://localhost:5038
+2024-08-24 22:28:53.5676 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-24 22:28:53.5773 +01:00INFHosting environment: Development
+2024-08-24 22:28:53.5906 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-24 22:28:56.3465 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-24 22:28:57.2628 +01:00INFExecuting endpoint '/ (/)'
+2024-08-24 22:33:33.2075 +01:00INFstarting up
+2024-08-24 22:33:33.5546 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-24 22:33:34.2623 +01:00INFNow listening on: https://localhost:7062
+2024-08-24 22:33:34.3309 +01:00INFNow listening on: http://localhost:5038
+2024-08-24 22:33:34.3400 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-24 22:33:34.3482 +01:00INFHosting environment: Development
+2024-08-24 22:33:34.3495 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-24 22:33:35.6636 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-24 22:33:36.2039 +01:00INFExecuting endpoint '/ (/)'
+2024-08-24 22:34:56.0306 +01:00INFInitializing Razor Page.
+2024-08-24 22:35:01.2604 +01:00INFGet Employees Method started.
+2024-08-24 22:35:30.2768 +01:00INFStart processing HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 22:35:30.2812 +01:00INFSending HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 22:42:12.8627 +01:00INFstarting up
+2024-08-24 22:42:13.2744 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-24 22:42:13.9660 +01:00INFNow listening on: https://localhost:7062
+2024-08-24 22:42:13.9678 +01:00INFNow listening on: http://localhost:5038
+2024-08-24 22:42:13.9759 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-24 22:42:13.9779 +01:00INFHosting environment: Development
+2024-08-24 22:42:13.9788 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-24 22:42:15.1728 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-24 22:42:15.7660 +01:00INFExecuting endpoint '/ (/)'
+2024-08-24 22:42:32.9006 +01:00INFInitializing Razor Page.
+2024-08-24 22:43:09.2490 +01:00INFGet Employees Method started.
+2024-08-24 22:43:17.7106 +01:00INFStart processing HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 22:43:17.7188 +01:00INFSending HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 22:51:25.3802 +01:00INFstarting up
+2024-08-24 22:51:25.8278 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-24 22:51:26.4404 +01:00INFNow listening on: https://localhost:7062
+2024-08-24 22:51:26.4417 +01:00INFNow listening on: http://localhost:5038
+2024-08-24 22:51:26.4519 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-24 22:51:26.4528 +01:00INFHosting environment: Development
+2024-08-24 22:51:26.4535 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-24 22:51:27.6308 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-24 22:51:28.2512 +01:00INFExecuting endpoint '/ (/)'
+2024-08-24 22:52:07.0457 +01:00INFInitializing Razor Page.
+2024-08-24 22:52:14.2657 +01:00INFGet Employees Method started.
+2024-08-24 22:52:27.8900 +01:00INFStart processing HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 22:52:27.8933 +01:00INFSending HTTP request GET https://localhost:7143/api/v1/Home/allemployees
+2024-08-24 22:56:20.1746 +01:00INFstarting up
+2024-08-24 22:56:20.6888 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-24 22:56:21.8801 +01:00INFNow listening on: https://localhost:7062
+2024-08-24 22:56:21.9561 +01:00INFNow listening on: http://localhost:5038
+2024-08-24 22:56:21.9848 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-24 22:56:22.0163 +01:00INFHosting environment: Development
+2024-08-24 22:56:22.0176 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-24 22:56:23.1234 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-24 22:56:23.8090 +01:00INFExecuting endpoint '/ (/)'
+2024-08-24 22:56:34.7356 +01:00INFInitializing Razor Page.
+2024-08-24 22:57:25.9406 +01:00INFGet Employees Method started.
+2024-08-24 22:58:59.6089 +01:00INFStart processing HTTP request GET https://localhost:7143/api/v1/HomeController/allemployees
+2024-08-24 22:58:59.6148 +01:00INFSending HTTP request GET https://localhost:7143/api/v1/HomeController/allemployees
+2024-08-24 23:01:33.9606 +01:00INFstarting up
+2024-08-24 23:01:34.4084 +01:00INFUser profile is available. Using 'C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-24 23:01:35.4067 +01:00INFNow listening on: https://localhost:7062
+2024-08-24 23:01:35.4293 +01:00INFNow listening on: http://localhost:5038
+2024-08-24 23:01:35.4495 +01:00INFApplication started. Press Ctrl+C to shut down.
+2024-08-24 23:01:35.5283 +01:00INFHosting environment: Development
+2024-08-24 23:01:35.5537 +01:00INFContent root path: C:\Projects\BlazorTutorial\BlazorWebApp
+2024-08-24 23:01:36.6916 +01:00INFRequest starting HTTP/2 GET https://localhost:7062/ - null null
+2024-08-24 23:01:37.2199 +01:00INFExecuting endpoint '/ (/)'
+2024-08-24 23:01:43.2279 +01:00INFInitializing Razor Page.
+2024-08-24 23:01:49.1719 +01:00INFGet Employees Method started.
+2024-08-24 23:02:14.8086 +01:00INFStart processing HTTP request GET https://localhost:7143/api/v1/HomeController/allemployees
+2024-08-24 23:02:14.8126 +01:00INFSending HTTP request GET https://localhost:7143/api/v1/HomeController/allemployees
